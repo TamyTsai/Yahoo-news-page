@@ -1,0 +1,116 @@
+/* 清除浮起來的效果 讓外層元素可以偵測到浮起來的子元素*/
+.clearfix /* 類別選取器 */ {
+    clear:both;
+}
+
+/* 上方導覽列 */
+nav /* 型態選取器 */ {
+    background-color: #6F00D2;
+}
+
+nav ul /* 後代選取器 */ {
+    list-style: none; /* 把無排序清單的點點去掉 */
+}
+
+nav ul li {
+    display: inline-block; /* 把清單項目由 block型元素 改為 inline型元素 */
+    padding: 12px; /* 給內邊界12像素 */
+}
+
+nav ul li a {
+    color: white; /* 字體顏色 白色 */
+    font-weight: 300; /* 字體粗細 數字越大越粗 */
+    font-size: 1.1em; /* 字體大小 外層元素（li）的1.1倍大 */
+    text-decoration: none; /* 清除底線 */
+}
+
+/* main-content 導覽列下的整個 內容區塊 */
+.main-content {
+    width: 96%; /* 寬度為外層元素（整個畫面(body)）的96％ (會貼著左側 剩下4％寬度給右邊)*/
+    margin-left: auto; /* 外邊界（左） */
+    margin-right: auto; /* 外邊界（右）自動與外邊界（右）平分剩下的寬度 */
+}
+
+/* 內容區塊（左半邊） */
+.content {
+    width: 69%; /*寬度為外層元素（main-content）的69％*/
+    float: left; /* 讓區塊靠左浮起來，讓下面的區塊擠上來*/
+    margin-right: 1%; /* 給一個占外層元素（main-content）1％大小的外邊界（右） */
+}
+
+/* 內容區塊（右半邊） */
+aside {
+    width: 30%; /*寬度為外層元素（main-content）的30％*/ /* aside與content共用main-content的空間 */
+    float: left; /* 讓區塊靠左浮上來 （在剩下的空間內靠左）*/
+}
+
+/* 內容區塊（左半邊) 上半部 */
+.top-content img {
+    width: 550px;
+    height: 320px;
+    float:left; /* 讓圖片靠左浮起來，讓下面的文字擠上來*/
+    margin-right: 10px; /* 給一個10px的外邊界（右） */
+}
+
+.top-content ul {
+    list-style: none; /* 把無排序清單的點點去掉 */
+}
+
+.top-content ul li {
+    line-height: 35px; /* 給清單項目30px的行高 */
+}
+
+.top-content ul li a {
+    color: #333C57; /* 字體顏色 深灰色 */
+    font-size: 1.2em; /* 字體大小 外層元素（li）的1.2倍大 */
+    text-decoration: none; /* 清除底線 */
+}
+
+/* 內容區塊（左半邊）下半部 */
+.sub-content {
+    width: 50%; /*寬度為外層元素（content）的50％*/ 
+    float: left;
+}
+
+.sub-content img {
+    width: 95%; /* 寬度設為外層元素（sub-content）大小的95％ */
+}
+
+.sub-content ul li {
+    line-height: 30px;
+}
+
+.sub-content ul li a {
+    color: #333C57;
+    text-decoration: none;
+}
+
+/* 內容區塊（右半邊 側邊欄） */
+aside img {
+    width: 100%; /* 寬度設為外層元素（aside）大小的100％ */
+}
+
+aside ol li {
+    line-height: 30px;
+}
+
+aside ol li a {
+    color: #333C57;
+    text-decoration: none;
+    font-size: 1.1em; /* 字體大小外層元素（li）的1.1倍大 */
+}
+
+aside h2 .update_time {
+    color: gray;
+    font-size: 0.7em;
+}
+
+
+
+
+
+
+
+
+
+
