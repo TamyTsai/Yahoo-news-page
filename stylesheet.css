@@ -46,8 +46,8 @@ aside {
 
 /* 內容區塊（左半邊) 上半部 */
 .top-content img {
-    width: 550px;
-    height: 320px;
+    width: 550px;  /* 不跟著視窗縮放 */
+    height: 320px; /* 不跟著視窗縮放 */
     float:left; /* 讓圖片靠左浮起來，讓下面的文字擠上來*/
     margin-right: 10px; /* 給一個10px的外邊界（右） */
 }
@@ -73,7 +73,7 @@ aside {
 }
 
 .sub-content img {
-    width: 95%; /* 寬度設為外層元素（sub-content）大小的95％ */
+    width: 95%; /* 寬度設為外層元素（sub-content）大小的95％ */ /*跟著視窗縮放*/
 }
 
 .sub-content ul li {
@@ -83,11 +83,12 @@ aside {
 .sub-content ul li a {
     color: #333C57;
     text-decoration: none;
+    font-size: 1.2em;
 }
 
 /* 內容區塊（右半邊 側邊欄） */
 aside img {
-    width: 100%; /* 寬度設為外層元素（aside）大小的100％ */
+    width: 100%; /* 寬度設為外層元素（aside）大小的100％ */ /*跟著視窗縮放*/
 }
 
 aside ol li {
