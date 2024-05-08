@@ -3,6 +3,7 @@
 
 ## 畫面
 ### 原始Yahoo!新聞頁面畫面
+##### 原網站網址：https://tw.news.yahoo.com
 ![Yahoo新聞頁面1](https://github.com/TamyTsai/Yahoo-news-page/assets/97825677/bddf7458-3943-4195-bcec-ed48a765d17e)
 ![Yahoo新聞頁面2](https://github.com/TamyTsai/Yahoo-news-page/assets/97825677/119d7d11-e2cf-4c43-9fe7-b68812dee860)
 ---
