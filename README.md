@@ -23,3 +23,7 @@ cd Yahoo-news-page
 ## 檔案說明
 - index.html - 頁面之HTML
 - stylesheet - 頁面之CSS
+
+## 專案技術
+- HTML
+- CSS
