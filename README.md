@@ -1,5 +1,6 @@
 ## 簡介
-本專案以HTML及CSS刻出模仿Yahoo!新聞頁面之網頁，為一頁式靜態網頁
+- [Demo Link](https://tamytsai.github.io/Yahoo-news-page/)
+- 本專案以HTML及CSS刻出模仿Yahoo!新聞頁面之網頁，為一頁式靜態網頁
 
 ## 畫面
 ### 原始Yahoo!新聞頁面畫面
